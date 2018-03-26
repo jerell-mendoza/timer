@@ -1,0 +1,15 @@
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-clock {
+  font-size: 100px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.timer-input {
+  text-align: center;
+}

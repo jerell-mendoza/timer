@@ -1,0 +1,16 @@
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+<div class="timer">
+  <div class="display-clock">
+    {{countdown}}
+  </div>
+
+
+  <div class="timer-input">
+    <input [(ngModel)]="countdownToTime"/>
+    <div *ngIf="countdownToTime">
+      <button (click)="startCountDown()">Start</button>
+      <button (click)="stop.emit()">Stop</button>
+    </div>
+  </div>
+</div>
